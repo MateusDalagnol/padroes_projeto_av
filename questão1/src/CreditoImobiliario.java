@@ -2,7 +2,7 @@ public class CreditoImobiliario implements Icredito{
     
     public void imprimir(Double valor, String nomeCliente){
         System.out.println("Modalidade Imobiliario | Nome: " + nomeCliente + " | Valor juros do primeiro mês: " + valor + "| Documentos exigidos:\r\n" + //
-                        "documento de identidade e comprovante de renda");   
+                        "matrícula do imóvel e comprovante de renda");   
     }
 
     public Double calcular(Double valor){
